@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jason | Software Engineering Student</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Instrument+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap bar" style="position:relative">
+    <div class="id"><a class="brand" href="#home"><i></i>Jason</a><span class="code">FUTM-SWE 212</span></div>
+    <input type="checkbox" id="menu" aria-label="Toggle menu" style="position:absolute;opacity:0;right:1.25rem;width:44px;height:44px">
+    <label class="burger" for="menu" aria-hidden="true"><span></span><span></span><span></span></label>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="wrap">
+      <h1>Software engineering student who also edits videos.</h1>
+      <p>I’m Jason, a 200 level student at the Federal University of Technology, Minna. I write code for class and cut video in my spare time. This site is a course project.</p>
+      <div class="cta">
+        <a class="btn primary" href="#about">About me</a>
+        <a class="btn ghost" href="#contact">Contact</a>
+      </div>
+
+      <div class="timeline" aria-hidden="true">
+        <div class="track"><span style="width:14%"></span><span class="on" style="width:22%"></span><span style="width:9%"></span><span class="on" style="width:30%"></span><span style="width:18%"></span></div>
+        <div class="track"><span class="on" style="width:8%"></span><span style="width:26%"></span><span class="on" style="width:16%"></span><span style="width:24%"></span><span class="on" style="width:20%"></span></div>
+        <div class="track"><span style="width:40%"></span><span class="on" style="width:34%"></span><span style="width:16%"></span></div>
+        <div class="playhead"></div>
+      </div>
+      <div class="timecode" aria-hidden="true"><span>00:00</span><span>00:15</span><span>00:30</span></div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="wrap grid">
+      <div>
+        <h2>Building software, cutting video.</h2>
+        <figure class="portrait">
+          <img src="portrait.jpg" alt="Black and white portrait of Jason with a horizontal motion blur across his face" width="720" height="901">
+          <figcaption>Jason, edited with a motion blur.</figcaption>
+        </figure>
+      </div>
+      <div>
+        <p>My full name is Hough Mkumater Jason. I’m a 200 level Software Engineering student at the Federal University of Technology, Minna, and I’m from Makurdi, Benue State.</p>
+        <p>This website is a project for FUTM-SWE 212, built with plain HTML and CSS. Alongside my degree, I edit videos in CapCut and I’m growing into DaVinci Resolve. Editing taught me to care about pacing and detail, and I bring the same habits to my code.</p>
+
+        <ul class="skills" id="skills">
+          <li class="main">HTML and CSS</li>
+          <li class="main">Back-end web development</li>
+          <li class="main">Problem solving</li>
+          <li>Video editing</li>
+          <li>Captions and text animation</li>
+          <li>Color correction</li>
+        </ul>
+
+        <div class="facts">
+          <div><b>200 Level</b><span>Software Engineering</span></div>
+          <div><b>FUT Minna</b><span>Minna, Niger State</span></div>
+          <div><b>CapCut</b><span>Editing tool</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <h2>Questions about this project? Get in touch.</h2>
+        <p>Send me an email, or message me on Instagram if you want a video edited.</p>
+        <a class="mail" href="mailto:houghmkumater@gmail.com">houghmkumater@gmail.com</a>
+        <dl class="details">
+          <div><dt>Course</dt><dd>Back-end web development</dd></div>
+          <div><dt>Matriculation number</dt><dd>2025/1/103221SW</dd></div>
+        </dl>
+      </div>
+      <ul class="social">
+        <li><a href="https://www.instagram.com/jasonnedits_10" target="_blank" rel="noopener">Instagram <small>@jasonnedits_10</small></a></li>
+        <li><a href="mailto:houghmkumater@gmail.com">Email <small>houghmkumater@gmail.com</small></a></li>
+      </ul>
+    </div>
+    <div class="legal">
+      <span>© 2026 Hough Mkumater Jason</span>
+      <span>Course project, FUTM-SWE 212</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
